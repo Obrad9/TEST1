@@ -1,0 +1,226 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+header{
+    background-image: url(https://get.pxhere.com/photo/man-person-music-black-and-white-people-white-photography-guitar-portrait-studio-darkness-playing-musician-black-monochrome-lifestyle-musical-instrument-musical-bassist-culture-guitarist-bass-guitar-monochrome-photography-string-instrument-film-noir-plucked-string-instruments-1034538.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    color:white;
+
+}
+
+#topnav ul{
+    display: inline-flex;
+    width: 100%;
+    padding: 13px 0;
+    background-color: rgb(65, 65, 65);
+    position: fixed;
+}
+   
+#topnav li{
+    padding: 0 25px;
+    font-family: 'Times New Roman', Times, serif;
+    list-style: none;
+}
+#main {
+    text-align: center;
+    padding: 150px;
+}
+#main h1{
+    font-size: 65px;
+    padding-bottom: 20px; 
+}
+#main h3 {
+    font-size: 35px;
+    padding: 15px 0;
+}
+#main p{
+    font-size: 19px;
+    padding: 10px;
+}
+
+.one{
+    background-color: rgb(49, 49, 49);
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+.one h1 {
+    font-size: 35px;
+    padding: 15px 0;
+}
+.one a {
+    padding: 25px 15px;
+    background-color: rgb(156, 30, 30);
+    color: white;
+    text-decoration-line: none;
+}
+.one p {
+    padding: 25px 60px;
+    font-size: 22px;
+    margin-bottom: 25px;
+}
+.one img {
+    width: 100%;
+}
+#description{
+    font-size: 16px;
+    margin-top: 25px;
+    margin-bottom: 0;
+}
+
+.two {
+    text-align: center;
+    color: rgb(83, 83, 83);
+    background-color: rgb(224, 224, 224);
+}
+.two h1 {
+    font-size: 35px;
+    padding: 40px 0;
+}
+.two p {
+    font-size: 22px;
+    padding: 30px 70px;
+}
+.two a {
+    padding: 20px;
+    background-color: rgb(27, 27, 85);
+    color: white;    
+    position: sticky;
+    text-decoration-line: none;
+}
+.two img {
+    width: 100%;
+}
+
+.three {
+    background-image: url(https://jolly-kalam-23776e.netlify.app/mytunes/img/section-bg.jpeg);
+    height: 90vh;    
+    background-position: bottom;    
+    color: white;
+    text-align: center;
+}
+.three h1{
+    font-size: 30px;
+    padding: 30vh 0 0 0;
+}
+.three p{
+    font-size: 23px;
+    padding: 30px 50px;
+}
+
+.four{
+    display: flex;
+    color: rgb(46, 46, 46);
+    background-color: rgb(224, 224, 224);
+}
+#left img{
+    width: 90vh;
+    margin: 15px 0 15px 50px;
+}
+#right{
+    padding: 10px 120px 15px 20px;
+}
+#right h2{
+    padding: 40px 0 15px 0;
+}
+#right p {
+    padding: 15px 0;
+    text-align: left;
+    font-size: 17px;
+}
+#right hr{
+    margin: 10px 0;
+}
+#right a {
+    text-decoration-line: none;
+}
+
+#botnav{
+    display: flex; 
+    background-color: rgb(46, 46, 46);
+    padding: 50px 170px;
+    color: white;
+}
+
+.first {
+    flex: 1;
+    list-style: none;
+    text-align: left;
+    margin-left: 15px;
+}
+.first a{    
+    color: rgb(204, 204, 204);
+    text-decoration-line: none;
+}
+.first li{
+    padding: 5px 0;
+}
+.mainlist{
+    font-size: 20px;
+    margin: 15px 0px;
+}
+.first hr{
+    margin: 10px 20px 10px 0;
+}
+
+footer p{
+    padding: 30px;
+    background-color: rgb(65, 65, 65);
+    color: white;
+    text-align: center;
+    font-size: 18px;
+}
+
+@media screen and (max-width: 700px) {
+    #main p {
+        display: none;
+    }
+    #main {
+        padding: 20px;
+    }
+    #main h3{
+        padding: 20px 30px;
+        
+        font-size: 25px;
+    }
+    #main h1 {
+        font-size: 40px;
+        padding-top: 60px;
+    }
+
+    header{
+        height: 50vh;
+    }
+
+    
+    .two h1{
+        font-size: 25px;
+        margin: 15px 40px;
+    }
+    .three h1{
+        padding: 5vh;
+    }
+
+    .four {
+        display: block;
+    }
+    #left img{
+        width: 60vh;
+    }
+    #right {
+        padding: 20px 30px ;
+    }
+    
+    #botnav {
+        display: none;
+    }
+
+}
